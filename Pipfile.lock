@@ -1,0 +1,32 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "d12d50752a8c8b6ff1b6f6f84c35aa8ce1c3e99b767d77296d6692c4b81a8875"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "greenhouse": {
+            "git": "ssh://git@github.com/bbc/datalab-greenhouse.git",
+            "ref": "e678b6bd960c2fff8946c32265d7b703f009eba3"
+        },
+        "requests": {
+            "hashes": [
+                "sha256:946b7c856aa62f4ad31de2b9bb501cfdcdb4afdc882ee76bd4664f57caefaa44"
+            ],
+            "index": "pypi",
+            "version": "==1.2.1"
+        }
+    },
+    "develop": {}
+}
